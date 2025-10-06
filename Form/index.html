@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <form>
+    Nama: <input type="text"><br>
+    No: <input type="number"><br>
+    Password: <input type="password"><br>
+    Email: <input type="email"><br>
+
+        <!-- input and bagian-bagiannya: -->
+      <h4> Pilih jenis kelamin:</h4>
+
+      <!-- name="Pilih jenis kelamin" untuk pilih salah satu -->
+    <input type="radio" name="Pilih jenis kelamin" value="yes"> <label for="yes">yes</label>
+    <input type="radio" name="Pilih jenis kelamin" value="no"> <label for="no">no</label>
+
+     <!-- checkbox untuk pilih lebih dari satu -->
+      <h4> Pilih hobi:</h4>
+    <input type="checkbox" name="hobi" value="mancing"> <label for="mancing">mancing</label>
+    <input type="checkbox" name="hobi" value="berenang"> <label for="berenang">berenang</label>
+    <input type="checkbox" name="hobi" value="ngoding"> <label for="ngoding">ngoding</label><br>
+
+     <!-- dropdown list untuk pilih satu dari beberapa pilihan -->
+     <h4> Pilih jurusan:</h4>
+    <select name="jurusan" id="jurusan">
+      <option value="RPL">RPL</option>
+      <option value="TKJ">TKJ</option>
+      <option value="MM">MM</option>
+      <option value="BC">BC</option>
+   </select>
+
+      <!-- upload file -->
+    <h4> Upload file:</h4>
+    <input type="file" name="file""><br><br>
+
+
+
+      <!-- tombol submit -->
+    <input type="button" name="submit" value="submit">
+  </form>
+</body>
+</html>

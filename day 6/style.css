@@ -1,0 +1,29 @@
+
+body {
+  background-color: rgb(73, 238, 103);
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+	color: b;
+  font-size: 20px;
+}
+
+h2 {
+  color: rgb(1, 1, 15);
+  font-size: 18px;
+}
+
+.container {
+  background-color: rgb(18, 195, 223);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: rgb(228, 153, 67);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
